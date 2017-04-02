@@ -1,0 +1,93 @@
+.wrapper{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+}
+
+.header_section{
+	widows: 100;
+	border: 1px solid red;
+	box-sizing: border-box;
+	background: #abc458;
+	overflow: hidden;
+}
+.logo { margin:0;
+	padding: 0;
+	width: 35%;
+	border:1px solid black;
+	box-sizing: border-box;
+	float: left;
+}
+.menubar { margin-top:22px;
+padding: 0;
+	width: 60%;
+	border:1px solid blue;
+	box-sizing: border-box;
+	float: right;
+}
+
+
+.menubar ul li {
+	margin:5px;
+	padding:20px;
+	display: inline-block;
+	list-style:none;
+	font-size: 40px;
+	font-family: sans-serif;
+	font-weight:bold;
+	text-transform:capitalize;
+	font-style: italic;
+	color:black;
+}
+
+/*header closed*/
+
+.slidebar{
+	margin:0 ;
+	padding:0;
+	position: relative;
+	width: 3500px;
+
+}
+.slidebar img{
+	float: left;
+}
+ /*slidebar closed*/
+ .news_section{
+ 	margin:0;
+ 	padding: 0;
+ 	width: 100%;
+ 	background:#16181a;
+border:2px solid red;
+box-sizing: border-box;
+ }
+.news{
+	margin:0;
+	padding: 0; 
+	width: 33.3%;
+	border: 1px solid red;
+	box-sizing: border-box;
+	float: left;
+	vertical-align: top;
+}
+.news p{margin: 0;
+	padding: 5px;
+	font-size: 15px;
+
+}
+/*news closed*/
+
+.footer{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+
+}
+.footer p{
+	text-align: center;
+}
+.footer span{
+	display: block;
+	background:black;
+	color: #f7fcfc;
+}
